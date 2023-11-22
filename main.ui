@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>971</width>
+                <height>629</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string></string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <layout class="QVBoxLayout" name="verticalLayout">
+                <item>
+                    <widget class="QTableWidget" name="coffee_table">
+                        <property name="layoutDirection">
+                            <enum>Qt::LeftToRight</enum>
+                        </property>
+                        <property name="sizeAdjustPolicy">
+                            <enum>QAbstractScrollArea::AdjustToContents</enum>
+                        </property>
+                        <attribute name="verticalHeaderVisible">
+                            <bool>false</bool>
+                        </attribute>
+                        <column>
+                            <property name="text">
+                                <string>ID</string>
+                            </property>
+                        </column>
+                        <column>
+                            <property name="text">
+                                <string>Название сорта</string>
+                            </property>
+                        </column>
+                        <column>
+                            <property name="text">
+                                <string>Степень обжарки</string>
+                            </property>
+                        </column>
+                        <column>
+                            <property name="text">
+                                <string>Молотый/в зёрнах</string>
+                            </property>
+                        </column>
+                        <column>
+                            <property name="text">
+                                <string>New Column</string>
+                            </property>
+                        </column>
+                        <column>
+                            <property name="text">
+                                <string>Цена</string>
+                            </property>
+                        </column>
+                        <column>
+                            <property name="text">
+                                <string>Объём упаковки</string>
+                            </property>
+                        </column>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>971</width>
+                    <height>21</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QStatusBar" name="statusbar"/>
+        <action name="clear_db_action">
+            <property name="text">
+                <string>Очистить базу данных...</string>
+            </property>
+        </action>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
